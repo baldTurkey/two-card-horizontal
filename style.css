@@ -93,15 +93,15 @@ a:hover {
 }
 
 /* specific styling to scale elements down for mobile */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px){
   .card{
     width: 390px;
     height: 220px;
   }
 
-  .text-wrapper {
+  /*.text-wrapper {
     position: relative;
-}
+}*/
 
   
 
