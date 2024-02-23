@@ -124,6 +124,15 @@ a:hover {
     position: relative;
 }
 
+.play-on-click {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.play-on-click.playing {
+    animation-play-state: running; /* Resume animation */
+}
+
+
 
 
   
