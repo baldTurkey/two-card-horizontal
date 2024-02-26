@@ -10,6 +10,21 @@
 */
 
 
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
 
 *{
     padding: 0;
@@ -43,32 +58,6 @@ body {
 
 }
 
-
-h1{
-  margin-bottom: 0px;
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-  font-size: 45px;
-  position: relative; top: 40px;
-  color: #27a59c;
-  
-}
-
-h2{
-  margin-bottom: 0px;
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-  font-size: 45px;
-  position: relative; top: 40px;
-  color: #27a59c;
-} 
-
 h3{
   margin-top: 0px;
   padding-top: 0px;
@@ -80,6 +69,31 @@ h3{
   top: 50px;
 
 }
+
+
+
+
+
+/* Header styles */
+header {
+  text-align: center;
+}
+
+.name-header {
+  font-size: 22px; /* Adjust as needed */
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.title-header {
+  font-size: 10px; /* Adjust as needed */
+  color: #f3ff11;
+  margin-top: 7px; 
+  margin-left: 40px
+}
+
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
   color: #0b8577;
@@ -93,7 +107,7 @@ a:hover {
 }
 
 /* specific styling to scale elements down for mobile */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
   .card{
     width: 390px;
     height: 220px;
@@ -120,6 +134,7 @@ a:hover {
 }
 
 
+
 .text-wrapper {
     position: relative;
 }
@@ -132,11 +147,11 @@ a:hover {
     animation-play-state: running; /* Resume animation */
 }
 
+#gifImage {
+  margin-left: 15px;
 
 
-
-  
-
+}
 
   .center-video {
     max-width: 100%; 
@@ -159,6 +174,31 @@ a:hover {
   }
 
 
+  .card2 {
+    background-image: url('assets/moon_bottom_gif.gif');
+    background-size: cover; 
+    background-position: bottom; 
+}
+
+.github-logo {
+  width: 50px;
+  height: auto;
+
+  margin-bottom: 11px;
+  margin-left: 140px;
+}
+
+.linkdn-logo {
+  width: 100px;
+  height: auto;
+
+  top: 30px;
+  right: 50px;
+}
+
+
+
+}
 
 
 
