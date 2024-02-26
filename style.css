@@ -168,7 +168,7 @@ a:hover {
 
 
     background-image: url('assets/stars.png');
-    background-size: auto 20%; 
+    background-size: cover; 
     background-position: center; 
 
   }
@@ -177,8 +177,7 @@ a:hover {
   .card2 {
     background-image: url('assets/moon_bottom_gif.gif');
     background-size: cover; 
-    background-position: bottom right 40px;
-     
+    background-position: bottom;
 }
 
 .github-logo {
@@ -186,27 +185,27 @@ a:hover {
   height: auto;
   
 
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   margin-left: 20px;
   margin-right: 10px;
 }
 
 .linkdn-logo {
-  width: 100px;
+  width: 75px;
   height: auto;
 
   margin-top: 20px;
 
 
-  margin-left: 163px;
+  margin-left: 200px;
 
 }
 
 
 .contact-info {
   position: absolute;
-  bottom: 50px;
-  left: 40px;
+  bottom: 25px;
+  left: 60px;
   display: flex;
   flex-direction: column;
   gap: 5px;
