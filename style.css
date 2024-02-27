@@ -81,16 +81,16 @@ header {
 }
 
 .name-header {
-  font-size: 22px; /* Adjust as needed */
+  font-size: 25px; /* Adjust as needed */
   font-weight: bold;
-  color: #ffffff;
+  color: #ffae00;
   margin-top: 90px;
   margin-left: 20px;
 }
 
 .title-header {
   font-size: 10px; /* Adjust as needed */
-  color: #f3ff11;
+  color: #ff7700;
   margin-top: 7px; 
   margin-left: 40px
 }
@@ -234,10 +234,128 @@ a:hover {
 
 }
 
+@media only screen and (min-width: 901px) {
+  .card{
+    width: 390px;
+    height: 220px;
+  }
+
+  /*.text-wrapper {
+    position: relative;
+}*/
+
+  
+
+  
+
+.center-image {
+  width: 350px;
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+}
+
+
+
+.text-wrapper {
+    position: relative;
+}
+
+.play-on-click {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.play-on-click.playing {
+    animation-play-state: running; /* Resume animation */
+}
+
+#gifImage {
+  margin-left: 15px;
+
+
+}
+
+  .center-video {
+    max-width: 100%; 
+   
+}
+
+
+  .card1 {
+    
+    
+     display: flex;
+     justify-content: center; /* Horizontally center */
+     align-items: center; /* Vertically center */
+
+
+    background-image: url('assets/stars.png');
+    background-size: cover; 
+    background-position: center; 
+
+  }
+
+
+  .card2 {
+    background-image: url('assets/black.jpg');
+    background-size: cover; 
+    background-position: bottom;
+}
+
+.github-logo {
+  width: 50px;
+  height: auto;
+  
+
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.linkdn-logo {
+  width: 75px;
+  height: auto;
+
+  margin-top: 20px;
+
+
+  margin-left: 200px;
+
+}
+
+
+.contact-info {
+  position: absolute;
+  bottom: 25px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-item img {
+  width: 20px; /* Adjust size as needed */
+  height: auto;
+}
+
+.contact-item span {
+  font-weight: 500;
+  font-size: 8px; /* Adjust size as needed */
+  color: #000000; /* Adjust color as needed */
+}
 
 
 
 
-
-
-
+}

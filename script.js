@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 4830);
 
             setTimeout(function() {
-                card2.style.backgroundImage = 'url("assets/moon_bottom_gif.gif")';
+                card2.style.backgroundImage = 'url("assets/maybe.gif")';
                 card2.style.backgroundSize = 'cover';
                 card2.style.backgroundPosition = 'bottom';
             }, 4780);
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 card2.style.backgroundSize = 'cover';
                 card2.style.backgroundPosition = 'bottom';
 
-            }, 6990);
+            }, 9140);
         }
 
 
