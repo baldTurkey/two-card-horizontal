@@ -36,7 +36,7 @@
 
 body {
     background-color: gray;
-    background-image: url('assets/background.png');
+    background-image: url('assets/star_background.jpeg');
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -49,6 +49,7 @@ body {
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(0, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Border style with 20% opacity white color */
   border-radius: 30px;
 }
 
@@ -175,7 +176,7 @@ a:hover {
 
 
   .card2 {
-    background-image: url('assets/moon_bottom_gif.gif');
+    background-image: url('assets/black.jpg');
     background-size: cover; 
     background-position: bottom;
 }
